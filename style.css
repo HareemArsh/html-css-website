@@ -1,32 +1,49 @@
 body {
     margin: 0;
+    padding: 0;
 }
 .main {
     display : flex;
     justify-content: space-around;
 }
-.block{
-    padding: 100px;
-    border: solid black;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    background-color: #3C3F3F;
-    color: #0EBAEE;
-    font-family: 'Raleway', sans-serif;
-
-}
 .pic{
     display : flex;
 }
-.subclass{
-    padding: 100px;
+.block-1{
+    
+    border: solid black;
+    flex: 1;   
+    background-color: #3C3F3F;
+    color: #0EBAEE;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.line{
+    width: 400px;
+}
+
+.block-2{
     border: solid #B82E10;
-    margin-top: 50px;
-    margin-right: 10px;
+    flex: 1;
     background-color: whitesmoke;
     color: black;
     font-family: 'Raleway', sans-serif;
-    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+
+}
+
+.questions{
+    background-color:#A372A5 ;
+    width: 100px;
+    border: solid white;
+    padding: 10px;
+    margin: 1px;
 }
