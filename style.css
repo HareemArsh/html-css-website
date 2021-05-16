@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.main {
+    display : flex;
+    justify-content: space-around;
+}
+.block{
+    padding: 100px;
+    border: solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    background-color: #3C3F3F;
+    color: #0EBAEE;
+    font-family: 'Raleway', sans-serif;
+
+}
+.pic{
+    display : flex;
+}
+.subclass{
+    padding: 100px;
+    border: solid #B82E10;
+    margin-top: 50px;
+    margin-right: 10px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    
+
+}
